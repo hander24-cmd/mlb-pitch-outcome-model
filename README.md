@@ -63,7 +63,7 @@ The improvement over Logistic Regression suggests that nonlinear relationships a
 
 ## ROC Curve
 
-![ROC Curve](figures/roc_curve.png)
+![ROC Curve](ffigures/final_model_roc.png)
 
 The Gradient Boosting model provides substantially better discrimination between whiffs and non-whiffs than both the Logistic Regression model and a random classifier.
 
@@ -75,7 +75,7 @@ Expected and actual whiff rates were then aggregated by pitch type and individua
 
 ## Actual vs Expected Whiff Rate
 
-![Actual vs Expected Whiff](figures/actual_vs_expected_whiff.png)
+![Actual vs Expected Whiff](figures/ScatterPlot.png)
 
 Pitcher-pitch combinations above the diagonal generated more whiffs than predicted by the model, while combinations below the diagonal generated fewer whiffs than expected.
 
@@ -89,7 +89,7 @@ Whiff Above Expected is defined as:
 
 Positive values indicate that a pitch generated more whiffs than predicted by the model.
 
-![Whiff Above Expected](figures/whiff_above_expected.png)
+![Whiff Above Expected](figures/TopCombo.png)
 
 Among qualifying pitcher-pitch combinations in the September test period, several pitches substantially exceeded their expected whiff rates. Clayton Beeter's slider showed the largest positive difference in the sample, followed by sliders from Emmet Sheehan and other high-performing pitcher-pitch combinations.
 
@@ -99,7 +99,7 @@ These results demonstrate how an expected-whiff model can be used not only for p
 
 Permutation importance was used to estimate how strongly each feature contributed to the Gradient Boosting model's predictive performance.
 
-![Feature Importance](figures/feature_importance.png)
+![Feature Importance](figures/GradientImportance.png)
 
 Vertical pitch location relative to the strike zone was the most important feature in the model. Pitch type was the second most important predictor, followed by vertical movement, horizontal location, and horizontal movement.
 
