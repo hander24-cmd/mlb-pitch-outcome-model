@@ -63,7 +63,7 @@ The improvement over Logistic Regression suggests that nonlinear relationships a
 
 ## ROC Curve
 
-![ROC Curve](ffigures/final_model_roc.png)
+![ROC Curve](figures/final_model_roc.png)
 
 The Gradient Boosting model provides substantially better discrimination between whiffs and non-whiffs than both the Logistic Regression model and a random classifier.
 
